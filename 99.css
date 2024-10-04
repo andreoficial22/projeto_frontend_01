@@ -1,0 +1,229 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f9f9f9; 
+}
+
+
+.container {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px; 
+    align-items: center; 
+}
+
+
+header {
+    background-color: white; 
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.logo-img {
+    height: 70px; 
+    width: auto; 
+    margin-left: 60px; 
+}
+
+.account a {
+    font-weight: 600;
+    color: #4a4a4a; 
+    text-decoration: none; 
+}
+
+
+.hero {
+    display: flex; 
+    justify-content: center; 
+    padding: 50px; 
+    margin-top: -10rem;
+}
+
+
+.hero-text {
+    height: 66%;
+    max-width: 600px; 
+    text-align: center; 
+}
+
+
+h1 {
+    font-size: 3.5em; 
+    color: #14183E; 
+}
+
+
+h1 span {
+    color: #4372EB; 
+}
+
+p {
+    font: size 30%; 
+    color:black;
+}
+
+
+.botoes {
+    margin-top: 20px; 
+}
+
+
+.cadastrar, .como-funciona {
+    text-decoration: none; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    font-size: 1em; 
+    margin-right: 10px; 
+}
+
+
+.cadastrar {
+    background-color: #4372EB; 
+    color: white; 
+}
+
+
+.como-funciona {
+    color: #4372EB; 
+    margin-left: 1rem;
+}
+
+.viajante {
+    width: 70vw; 
+    height: auto; 
+}
+
+
+.parceiros {
+    margin-top: -10rem;
+    margin-bottom: 10rem;
+    margin-right: 3rem;
+    padding: 5px; 
+    text-align: center; 
+}
+.parceiros-lista{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+
+.parceiros-lista img {
+    height: 60px; 
+    width: auto;
+    margin-bottom: 30px;
+}
+
+
+.destinos-favoritos {
+    padding: 20px; 
+    text-align: center; 
+}
+
+
+.destinos-container {
+    display: flex; 
+    gap: 2%; 
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+.destino {
+    width: 220px; 
+    height: 300px;
+    border-radius: 10px; 
+    overflow: hidden; 
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+
+.destino:hover {
+    transform: scale(1.05); 
+}
+.destino:nth-of-type(1){
+    background-image: url("destino2.png");
+
+}
+.destino:nth-of-type(2){
+    background-image: url("destino1.png");
+
+}
+.destino:nth-of-type(3){
+    background-image: url("destino5.png");
+
+}
+.destino:nth-of-type(4){
+    background-image: url("destino4.png");
+
+}
+
+
+
+
+.destino .info {
+    width:120px;
+    padding: 10px; 
+    background-color: rgba(244, 250, 250, 0.865);
+
+}
+
+
+.destino .info h2 {
+    margin: 0; 
+    font-size: 18px; 
+    color: #333; 
+}
+
+
+.destino .info p {
+    margin: 5px 0; 
+    font-size: 14px; 
+    color: #777; 
+}
+
+.reservas {
+    padding: 0px; 
+}
+
+
+.card-info {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.card-info p {
+    margin: 3px 0; 
+}
+
+
+.atracoes-turisticas {
+    padding: 50px; 
+    text-align: center; 
+}
+
+
+.mapa img {
+    max-width: 100%; 
+    height: auto; 
+}
+#imagem_reserva_bali img{
+    margin-top: 0%;
+    width: 50%;
+}
+
+#sessao-primeiro{
+margin-left: 6rem;
+}
+
+#div-principal{
+    display: flex;
+}
